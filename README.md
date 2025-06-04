@@ -22,8 +22,12 @@ Raspberry Pi mit den erforderlichen Sensoren und der Pumpe verbinden.
 Verkabelung gemäß Schaltplan (siehe Dokumentation) durchführen.
 
 ### Software einrichten:
+RaspberryPi-User der I2C Gruppe hinzufügen. (Kommunikation über GPIO-Pin's)
 Python-Skript auf dem Raspberry Pi installieren.
 Erforderliche Bibliotheken (z. B. RPi.GPIO) installieren: pip install -r requirements.txt.
+Influx-DB Token einfügen.
+Service-Datei auf dem RaspberryPi aktivieren. (für automatische Steuerung)
+
 
 ### Service starten:
 Skript ausführen: python irrigation_control.py.
