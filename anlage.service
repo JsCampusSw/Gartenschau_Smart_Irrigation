@@ -1,0 +1,17 @@
+[Unit]
+Description=Bewaesserungsanlage Service
+After=network.target
+
+[Service]
+Type=simple
+User=username
+WorkingDirectory=/home/username
+ExecStart=/home/username/venv/keplervenv/bin/python /home/username/Documents/Bewaesserung_pi.py
+Restart=on-failure
+RestartSec=5
+Environment=PYTHONUNBUFFERED=1
+StandardOutput=append:/home/username/bewaesserung_systemd.log
+StandardError=append:/home/username/bewaesserung_systemd.err
+
+[Install]
+WantedBy=multi-user.target
