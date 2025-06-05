@@ -16,7 +16,7 @@ Eine Solarzelle lädt bei Sonneneinstrahlung eine Batterie, die das System mit S
   - 3 Bodenfeuchtigkeitssensoren: Messung der Bodenfeuchtigkeit.
   - 1 Wasserstandsensor: Überwachung des Wasserstands im Tank.
 - **Analog-Digital-Wandler (ADC)**: Wandelt analoge Sensordaten in digitale Signale um.
-- **Wasserpumpe**: Aktiviert die Bewässerung für 4 Sekunden bei Bedarf.
+- **Wasserpumpe inkl. Relais**: Aktiviert die Bewässerung für 4 Sekunden bei Bedarf.
 - **Solarzelle und Batterie**: Versorgt das System mit Strom.
 - **Python-Skript**: Steuert Sensorabfrage, Pumpenaktivierung und Datenweiterleitung.
 - **InfluxDB**: Speichert Sensordaten in einem Influx Bucket.
@@ -48,7 +48,7 @@ Das Projekt zeigt, wie Schüler:innen durch den Einsatz moderner Technologien wi
 - Solarzelle und Batterie
 - Python 3.x
 - Bibliotheken: RPi.GPIO, influxdb-client
-- InfluxDB-Datenbank
+- InfluxDB-Datenbank sowie Token
 - Dashboard-Tool (z. B. Grafana)
 
 ## Mitwirkende
