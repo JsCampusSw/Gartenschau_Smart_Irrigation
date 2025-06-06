@@ -31,7 +31,7 @@ Das Projekt zeigt, wie Schüler:innen durch den Einsatz moderner Technologien wi
    - Raspberry Pi mit Bodenfeuchtigkeitssensoren, Wasserstandsensor, ADC, Wasserpumpe, Solarzelle und Batterie verbinden.
    - Verkabelung gemäß Schaltplan (siehe Dokumentation) durchführen.
 2. **Software einrichten**:
-   - Python-Skript auf dem Raspberry Pi installieren.
+   - Python-Skript auf dem Raspberry Pi anlegen.
    - Erforderliche Bibliotheken (z. B. RPi.GPIO, influxdb-client) installieren: `pip install -r requirements.txt`.
    - InfluxDB einrichten und Zugangsdaten im Skript konfigurieren.
 3. **Service starten**:
