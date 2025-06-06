@@ -4,13 +4,14 @@
 Dieses Projekt wurde in Kooperation mit Schüler:innen des Kepler-Gymnasiums in Freudenstadt anlässlich der Gartenschau 2025 entwickelt. Ziel war die Entwicklung eines automatisierten Bewässerungssystems, das mithilfe eines Raspberry Pi, Sensoren und einer Solarzelle eine effiziente, bedarfsorientierte Bewässerung ermöglicht.
 
 ## Funktionsweise
-Das System basiert auf einem Raspberry Pi, der über ein Python-Skript einen Service steuert. Drei Bodenfeuchtigkeitssensoren und ein Wasserstandsensor liefern analoge Signale, die durch einen Analog-Digital-Wandler (ADC) in digitale Daten umgewandelt und an den Raspberry Pi übermittelt werden. Das Skript läuft einmal pro Stunde, liest die Sensordaten und prüft vordefinierte Bedingungen:
+Das System basiert auf einem Raspberry Pi, der über einen implementierten Service, ein Python-Skript für die Anlagensteuerung ausführt. Drei Bodenfeuchtigkeitssensoren und ein Wasserstandsensor liefern analoge Signale, die durch einen Analog-Digital-Wandler (ADC) in digitale Daten umgewandelt und an den Raspberry Pi übermittelt werden. Das Skript läuft einmal pro Stunde, liest die Sensordaten und prüft vordefinierte Bedingungen:
 - Wenn der Boden zu trocken ist (basierend auf Schwellenwerten der Feuchtigkeitssensoren) und der Wasserstand im Tank ausreichend ist, wird die Wasserpumpe für 4 Sekunden aktiviert.
 - Die gesammelten Sensordaten werden in einer InfluxDB-Datenbank (in einem Influx Bucket) gespeichert und in einem Dashboard visualisiert.
 
 Eine Solarzelle lädt bei Sonneneinstrahlung eine Batterie, die das System mit Strom versorgt.
 
 ### Hauptkomponenten
+- **Batterie-Management-Sytsem**: Überwacht die Batterie und schützt die Batterie vor Überladung oder Tiefenentladung.
 - **Raspberry Pi**: Zentrale Steuereinheit.
 - **Sensoren**:
   - 3 Bodenfeuchtigkeitssensoren: Messung der Bodenfeuchtigkeit.
@@ -50,13 +51,6 @@ Das Projekt zeigt, wie Schüler:innen durch den Einsatz moderner Technologien wi
 - Bibliotheken: RPi.GPIO, influxdb-client
 - InfluxDB-Datenbank sowie Token
 - Dashboard-Tool (z. B. Grafana)
-
-## Mitwirkende
-- Schüler:innen des Kepler-Gymnasiums Freudenstadt
-- Betreuende Lehrkräfte und externe Partner
-
-## Lizenz
-Dieses Projekt steht unter der MIT-Lizenz.
 
 ## Kontakt
 Für Fragen oder Anregungen wenden Sie sich an das Projektteam des Kepler-Gymnasiums Freudenstadt.
