@@ -48,7 +48,7 @@ Das Projekt zeigt, wie Schüler:innen durch den Einsatz moderner Technologien wi
 - Wasserpumpe mit Relaismodul
 - Solarzelle und Batterie
 - Python 3.x
-- Bibliotheken: RPi.GPIO, influxdb-client
+- Bibliotheken: siehe requirements.txt
 - InfluxDB-Datenbank sowie Token
 - Dashboard-Tool (z. B. Grafana)
 
