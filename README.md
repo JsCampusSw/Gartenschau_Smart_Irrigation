@@ -1,12 +1,12 @@
 # Automatisiertes Bewässerungssystem – Schülerprojekt Gartenschau 2025
-# Project Title
 
 
-![App Screenshot](https://raw.githubusercontent.com/your-username/your-repo/main/screenshots/demo.png)
 
-![App Screenshot](https://raw.githubusercontent.com/your-username/your-repo/main/screenshots/demo.png)
+<img src=".\Campus Schwarzwald_Logo_mit Schriftzug (1).svg" width="250">  <img src=".\Gartenschau_LoGo.png" width="250">  <img src=".\LOGO_KEPLER_gross_287x186_Kaupp_geglaettet.png" width="250">
 
-![App Screenshot](https://raw.githubusercontent.com/your-username/your-repo/main/screenshots/demo.png)
+
+
+
 
 
 
