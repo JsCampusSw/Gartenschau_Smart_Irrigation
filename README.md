@@ -1,4 +1,14 @@
 # Automatisiertes Bewässerungssystem – Schülerprojekt Gartenschau 2025
+# Project Title
+
+
+![App Screenshot](https://raw.githubusercontent.com/your-username/your-repo/main/screenshots/demo.png)
+
+![App Screenshot](https://raw.githubusercontent.com/your-username/your-repo/main/screenshots/demo.png)
+
+![App Screenshot](https://raw.githubusercontent.com/your-username/your-repo/main/screenshots/demo.png)
+
+
 
 ## Projektbeschreibung
 Dieses Projekt wurde in Kooperation mit Schüler:innen des Kepler-Gymnasiums in Freudenstadt anlässlich der Gartenschau 2025 entwickelt. Ziel war die Entwicklung eines automatisierten Bewässerungssystems, das mithilfe eines Raspberry Pi, Sensoren und einer Solarzelle eine effiziente, bedarfsorientierte Bewässerung ermöglicht.
