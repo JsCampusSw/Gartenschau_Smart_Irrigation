@@ -2,7 +2,7 @@
 
 
 
-<img src=".\Campus Schwarzwald_Logo_mit Schriftzug (1).svg" width="250">  <img src=".\Gartenschau_LoGo.png" width="250">  <img src=".\LOGO_KEPLER_gross_287x186_Kaupp_geglaettet.png" width="250">
+<img src=".\Bilder\Campus Schwarzwald_Logo_mit Schriftzug (1).svg" width="250">  <img src=".\Bilder\Gartenschau_LoGo.png" width="250">  <img src=".\Bilder\LOGO_KEPLER_gross_287x186_Kaupp_geglaettet.png" width="250">
 
 
 
